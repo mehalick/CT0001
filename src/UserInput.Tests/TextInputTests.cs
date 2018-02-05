@@ -1,16 +1,16 @@
 using System.Diagnostics.CodeAnalysis;
-using TextInput.Code;
+using UserInput.Code;
 using Xunit;
 
-namespace TextInput.Tests
+namespace UserInput.Tests
 {
     [SuppressMessage("ReSharper", "ConvertToConstant.Local")]
-    public class AppTests
+    public class TextInputTests
     {
         [Fact]
         public void TextInput_AddVariousCharacters_ReturnsCorrectValue()
         {
-            var textInput = new Code.TextInput();
+            var textInput = new TextInput();
             textInput.Add('1');
             textInput.Add('a');
             textInput.Add('0');

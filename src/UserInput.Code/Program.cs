@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TextInput.Code
+namespace UserInput.Code
 {
     // TODO: implement TextInput and NumericInput to pass unit tests
 
