@@ -1,0 +1,36 @@
+﻿@page
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Date Formatting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/qunit/2.4.1/qunit.min.css" integrity="sha256-5OG9MhFj0lKjViErsLBimPL4M4neOVv1ITMNhlglyrI=" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qunit/2.4.1/qunit.min.js" integrity="sha256-7Gc+c6UtuFKmgy7Io5wwFkeT3oLbvbo84sXuBzPv4MY=" crossorigin="anonymous"></script>
+    <script>
+
+        // TODO: implement formatDate()
+
+        function formatDate(date) {
+            throw "Not implemented";
+        }
+
+        QUnit.test("Normal Date", function (assert) {
+            assert.equal(formatDate("12/31/2018"), "20181231");
+        });
+
+        QUnit.test("One-digit Month", function (assert) {
+            assert.equal(formatDate("1/31/2018"), "20180131", "One-digit Month");
+        });
+
+        QUnit.test("One-digit Day", function (assert) {
+            assert.equal(formatDate("12/1/2018"), "20181201", "One-digit Day");
+        });
+
+    </script>
+</body>
+</html>

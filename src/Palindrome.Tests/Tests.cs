@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Palindrome.Tests
 {
-    public class PalindromeTests
+    public class Tests
     {
         [Fact]
         public void IsPalindrome_NullInput_ThrowsException()

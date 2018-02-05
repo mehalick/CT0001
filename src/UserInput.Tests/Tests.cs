@@ -5,7 +5,7 @@ using Xunit;
 namespace UserInput.Tests
 {
     [SuppressMessage("ReSharper", "ConvertToConstant.Local")]
-    public class TextInputTests
+    public class Tests
     {
         [Fact]
         public void TextInput_AddVariousCharacters_ReturnsCorrectValue()

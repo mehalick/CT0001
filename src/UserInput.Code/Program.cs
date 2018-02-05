@@ -21,7 +21,7 @@ namespace UserInput.Code
     {
     }
 
-    internal class Program
+    public class Program
     {
         private static void Main()
         {
