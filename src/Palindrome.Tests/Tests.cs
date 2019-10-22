@@ -18,7 +18,7 @@ namespace Palindrome.Tests
         }
 
         [Fact]
-        public void IsPalindrome_SinglecasePalindrome_ReturnsTrue()
+        public void IsPalindrome_SingleCasePalindrome_ReturnsTrue()
         {
             var isPalindrome = Code.Program.IsPalindrome("racecar");
 

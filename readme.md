@@ -2,11 +2,10 @@
 
 Please complete these tests by implementing various methods within this solution. Tests are complete when all xUnit and QUnit tests pass and you are happy with the code you've written.
 
-HINT: You can run the xUnit tests from the command line within each project with either:
+HINT: You can run the xUnit tests from the command line within each project with the .NET CLI:
 
 <pre>
 dotnet test
-dotnet xunit
 </pre>
 
 You can run the QUnit tests by loading the page in your web browser, the test results will display automatically.
